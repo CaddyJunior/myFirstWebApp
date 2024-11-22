@@ -27,6 +27,7 @@ public class JpaTodoController {
     private TodoRepository todoRepository;
 
     public JpaTodoController(TodoRepository todoRepository) {
+
         this.todoRepository= todoRepository;
     }
 
